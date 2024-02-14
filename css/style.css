@@ -1,0 +1,11 @@
+.container{
+  margin: 0 auto;
+}
+
+.card{
+  max-height: 500px;
+}
+.img{
+  width: 100%;
+  height: 231px;
+}
