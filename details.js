@@ -58,6 +58,15 @@ async function fetchPostDetails() {
                     <p class="text-sm text-gray-500">Published by ${post.owner.firstName} ${post.owner.lastName} on ${formatDate(post.publishDate)}</p>
                     <p class="text-sm text-gray-500">Likes: ${post.likes}</p>
                     <p class="text-sm text-gray-500">Tags: ${firstTag}</p>
+                    <div>
+                        <a href="./index.html" class="inline-flex items-center  font-medium text-left text-white  ">
+                            Main page
+                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                            </svg>
+                        </a>
+                        
+                    </div>
                 `;
     } catch (error) {
         console.error('Error fetching post details:', error);
