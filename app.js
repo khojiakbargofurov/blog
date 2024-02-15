@@ -54,7 +54,7 @@ async function fetchData() {
             card.innerHTML = `
                 <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <img class="img rounded-t-lg w-full h-auto mb-4" src="${element.image}" alt="" />
+                        <img class="img rounded-t-lg w-full h-auto mb-4 object-cover" src="${element.image}" alt="" />
                     </a>
                     <div class="p-5">
                         <a href="#">
